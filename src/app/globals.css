@@ -1,12 +1,9 @@
-@import "tailwindcss/preflight";
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply dark; /* Dark-Mode erzwingen */
-  }
   body {
-    /* Hier wenden wir unsere neuen Standardfarben an */
-    @apply bg-background text-primary;
+    @apply bg-gray-900 text-gray-100;
   }
 }
